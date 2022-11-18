@@ -1,0 +1,16 @@
+// Insert tabla rol_usuario.
+
+INSERT INTO `inventario`.`rol_usuario` (`idrol_usuario`, `nombre`) VALUES ('1', 'administrador');
+INSERT INTO `inventario`.`rol_usuario` (`idrol_usuario`, `nombre`) VALUES ('2', 'vendedor');
+
+//Insert tabla estados
+
+INSERT INTO `inventario`.`estados` (`idestados`, `nombre`) VALUES ('1', 'activo');
+INSERT INTO `inventario`.`estados` (`idestados`, `nombre`) VALUES ('2', 'inactivo');
+
+
+//Insert tabla metodo_pago
+
+INSERT INTO `inventario`.`metodo_pago` (`idmetodo_pago`, `nombre`) VALUES ('1', 'efectivo');
+
+---> despues de estos insert ya puede ingresar el insert del usuario admin

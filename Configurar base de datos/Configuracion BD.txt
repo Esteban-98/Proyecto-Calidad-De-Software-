@@ -1,0 +1,35 @@
+
+
+//Con base en el Script utizando workbench
+1.Abrir workbench e iniciar sesion local
+2.Ir a la pestaña File 
+3.opcion Open SQl script 
+4.abrir el archivo "ScriptBaseDeDatos_inventario"
+5.generar la base de datos con el Script cargado
+
+//Con base en el Script utizando Cliente MySQL (Command Line Client )
+1.Abrir la linea de comando del cliente
+2.iniciar sesion local con el usuario y la contraseña
+3.abrir el archivo "ScriptBaseDeDatos_inventario" con Bloc de notas 
+4.Copiar el contenido del bloc de notas en la linea de comando 
+5.base de datos creada
+
+
+//Insert inicial 
+
+*En workbench 
+1.Abrir un nuevo query
+2.Pegar el contenido que esta en el archivo"INSERTINICIAL"
+
+*En la linea de comando
+1.usar la base de datos "invetario" ya creada en los pasos anteriores
+2.copiar y pegar el contenido del archivo "INSERTINCIAL"
+
+Tener en cuenta que el  insert inicial contiente la tupla perteneciente 
+al administrador , puede modificar los datos que se encuentren en el insert 
+se recomineda tener cuidado.
+
+los datos referentes a los atributos "nit" y "contrasena" son los que le daran apertura al software siendo el nit el usuario
+
+el nit solo debe tener valores numericos y sin espacios en blanco 
+

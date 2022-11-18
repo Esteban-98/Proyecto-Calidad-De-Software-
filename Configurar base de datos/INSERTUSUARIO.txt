@@ -1,0 +1,6 @@
+//Insertar en Query de BD. 
+** User: 123
+** Password: 123456
+
+
+INSERT INTO `inventario`.`usuario` (`nit`, `primer_nombre`, `segundo_nombre`, `primer_apellido`, `segundo_apellido`, `telefono_1`, `telefono_2`, `direccion`, `contacto_emergencia`, `telefono_contacto_emergencia`, `rol_usuario`, `contrasena`, `edad`, `estado_usuario`) VALUES ('123', 'ADMIN', 'ADMIN', 'ADMIN', 'ADMIN', '123456', '123456', 'DIR ADMIN', 'CONTACT ADMIN', '123456', '1', '123456', '20', '1');
